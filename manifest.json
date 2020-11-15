@@ -1,0 +1,19 @@
+{
+  "name": "FB Page Inbox Video Download",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "homepage_url": "https://b.dokimakis.gr",
+  "content_scripts": [
+	{
+		"matches": ["https://www.facebook.com/*"],
+		"js": ["jquery.js", "main.js"],
+		"run_at": "document_end",
+		"all_frames": true
+	}
+  ],
+	"icons": { 
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png" 
+	}
+}
